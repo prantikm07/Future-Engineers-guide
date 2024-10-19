@@ -37,13 +37,13 @@ h1 {
 }
 
 h2 {
-    font-size: 2rem;
-    padding: 10px;
+    font-size: 2.2rem;
+    padding: 20px;
     color: #ff0000;
     /* Different color for "First Semester" */
     background: #ecf0f3;
     border-radius: 10px;
-    box-shadow: inset 5px 5px 10px #bebebe, inset -5px -5px 10px #ffffff;
+    /* box-shadow: inset 5px 5px 10px #bebebe, inset -5px -5px 10px #ffffff; */
     margin-bottom: 1rem;
     text-align: left;
     padding-left: 1rem;
@@ -51,13 +51,14 @@ h2 {
 
 h3 {
     font-size: 1.8rem;
-    padding: 10px;
+    padding: 15px;
     color: #0066ff;
     /* Different color for "Chemistry" */
     background: #ecf0f3;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: inset 5px 5px 10px #bebebe, inset -5px -5px 10px #ffffff;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
     text-align: left;
     padding-left: 1rem;
 }
