@@ -1,0 +1,184 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Neomorphic Background and Shadows */
+body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(135deg, #f3f3f3, #e0e0e0);
+    font-family: 'Cambria', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #1a1a1a;
+}
+
+/* Box Design for Main Content */
+.box {
+    padding: 3rem;
+    margin: 3rem auto;
+    background: #f0f0f3;
+    box-shadow: 9px 9px 16px #bebebe, -9px -9px 16px #ffffff;
+    border-radius: 20px;
+    max-width: 900px;
+}
+
+/* Headings Style */
+h1 {
+    font-size: 2.5rem;
+    color: #af25ff;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+    padding: 10px;
+    color: #ff0000;
+    /* Different color for "First Semester" */
+    background: #ecf0f3;
+    border-radius: 10px;
+    box-shadow: inset 5px 5px 10px #bebebe, inset -5px -5px 10px #ffffff;
+    margin-bottom: 1rem;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+    padding: 10px;
+    color: #0066ff;
+    /* Different color for "Chemistry" */
+    background: #ecf0f3;
+    border-radius: 10px;
+    box-shadow: inset 5px 5px 10px #bebebe, inset -5px -5px 10px #ffffff;
+    margin-bottom: 1rem;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+/* Task List Style */
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-list li {
+    background: #ffffff;
+    color: #00a6ff;
+    padding: 1.2rem;
+    margin: 0.7rem 0;
+    border-radius: 15px;
+    font-size: 1.1rem;
+    box-shadow: 9px 9px 16px #bebebe, -9px -9px 16px #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.task-list li:hover {
+    background-color: #ecf0f3;
+}
+
+.task-list li a {
+    color: #0048ff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.task-list li a:hover {
+    color: #e74c3c;
+}
+
+.task-list li a:visited {
+    color: #b035e1;
+    /* Different color for visited links */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    .box {
+        padding: 1.5rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2,
+    h3 {
+        font-size: 1.5rem;
+        padding: 8px;
+    }
+
+    .task-list li {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2,
+    h3 {
+        font-size: 1.4rem;
+        padding: 6px;
+    }
+}
+
+/* Footer Style */
+footer {
+    background-color: #ecf0f3;
+    box-shadow: 9px 9px 16px #bebebe, -9px -9px 16px #ffffff;
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 15px;
+    margin-top: 3rem;
+}
+
+footer p {
+    font-size: 0.95rem;
+    color: #333;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+
+.don {
+    text-align: center;
+    /* Center align content */
+}
+
+.logo {
+    max-width: 100%;
+    /* Responsive */
+    height: auto;
+    /* Maintain aspect ratio */
+    width: 100px;
+    /* Set a maximum width for the logo */
+    margin: 0 auto;
+    /* Center the logo horizontally */
+}
+
+.box1 {
+    margin-top: 20px;
+    /* Space above the heading */
+}
